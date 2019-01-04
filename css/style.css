@@ -152,7 +152,7 @@ address span{
 	display:inline-block;
 }
 .skill1 ul,.skill2 ul,.skill3 ul,.skill ul{
-	padding-left:2em;
+    padding-left: 2em;
 }
 .skill1 ul li,.skill2 ul li,.skill3 ul li,.skill ul li{
     color:#333;
@@ -190,16 +190,16 @@ h3.clr1{
 	background:#6ecadc;
 }
 h3.clr2{
-	background:#6ecadc;
+	background:#e9a820;
 }
 h3.clr3{
-	background:#6ecadc;
+	background:#ff2400;
 }
 h3.clr4{
-    background-color:#6ecadc;
+    background-color:#6f4242;
 }
 h3.clr5{
-    background-color:#6ecadc;
+    background-color:#449933;
 }
 .copywrite{
 	padding-left:2em;
@@ -254,6 +254,15 @@ h3.clr5{
   height: 350px;
   border: none;
 }
+
+.project-img{
+    width: 100%;
+}
+.project-img img{
+    width: 100%;
+    margin:30px;
+}
+
 /*--responsive--*/
 @media (max-width: 1366px){
 .sidebar h1 {
@@ -455,6 +464,7 @@ address {
 }
 .skill1 ul, .skill2 ul,.skill3 ul,skill ul {
   padding-left: 1.3em;
+  
 }
 }
 @media (max-width: 384px){
